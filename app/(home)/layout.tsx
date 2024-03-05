@@ -7,10 +7,10 @@ interface HomeLayoutProps {
 
 const HomeLayout = ({ children }: HomeLayoutProps) => {
     return (
-        <div>
+        <>
             <Header />
             {children}
-        </div>
+        </>
     )
 }
 
