@@ -17,7 +17,9 @@ const MainLayout = ({children}: MainLayoutProps) => {
       <>
           <Header />
           {!isMobile && <Tabs cls='flex gap-8 py-15 mx-auto h-20 justify-center' />}
-          {children}
+          <div className="px-3 md:px-[2rem] xl:px-[9rem]">
+            {children}
+          </div>
           {isMobile && <Tabs cls='flex justify-between px-10 h-16 bg-primary-foreground fixed bottom-0 left-0 right-0' />}
       </>
   )

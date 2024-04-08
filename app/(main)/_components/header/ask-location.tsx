@@ -30,7 +30,7 @@ const AskLocation = () => {
 
     const ask = () => {
         return (
-            <div className='px-5 py-4'>
+            <div className='px-5 py-4 border-b-2 md:border-b-0'>
                 <div className='flex items-center cursor-pointer'>
                     <span className='rounded-[50px] bg-blue-100 inline-block p-1'>
                         <MapPin color="#5094ed" size={15} />

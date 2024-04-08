@@ -18,9 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="md:px-[2rem] xl:px-[9rem]">
           {children}
-        </div>
       </body>
     </html>
   );

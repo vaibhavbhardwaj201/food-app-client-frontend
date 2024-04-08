@@ -8,7 +8,7 @@ interface TabsProps {
 
 const Tabs = ({cls}: TabsProps) => {
   return (
-      <nav className={cls}>
+      <nav className={`${cls} z-20`}>
             <Link href={'/'} className='flex flex-col gap-1 justify-center items-center md:flex-row md:gap-2 text-primary'>
                 <Home size={20} />
                 <div className='text-sm'>Home</div>

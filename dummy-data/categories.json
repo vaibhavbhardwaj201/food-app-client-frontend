@@ -1,0 +1,116 @@
+{
+  "categories": [
+    {
+      "name": "Asian",
+      "icon": "🍜",
+      "color": "#FFA500"
+    },
+    {
+      "name": "Vegetarian",
+      "icon": "🥗",
+      "color": "#008000"
+    },
+    {
+      "name": "Non-vegetarian",
+      "icon": "🍗",
+      "color": "#FF0000"
+    },
+    {
+      "name": "BBQ",
+      "icon": "🔥",
+      "color": "#800000"
+    },
+    {
+      "name": "Chinese",
+      "icon": "🥡",
+      "color": "#FFD700"
+    },
+    {
+      "name": "Italian",
+      "icon": "🍝",
+      "color": "#008080"
+    },
+    {
+      "name": "Mexican",
+      "icon": "🌮",
+      "color": "#FF6347"
+    },
+    {
+      "name": "Indian",
+      "icon": "🍛",
+      "color": "#8A2BE2"
+    },
+    {
+      "name": "Mediterranean",
+      "icon": "🥙",
+      "color": "#FF4500"
+    },
+    {
+      "name": "Japanese",
+      "icon": "🍣",
+      "color": "#FF69B4"
+    },
+    {
+      "name": "French",
+      "icon": "🥐",
+      "color": "#4B0082"
+    },
+    {
+      "name": "Greek",
+      "icon": "🇬🇷",
+      "color": "#228B22"
+    },
+    {
+      "name": "Thai",
+      "icon": "🌶️",
+      "color": "#FF8C00"
+    },
+    {
+      "name": "Korean",
+      "icon": "🇰🇷",
+      "color": "#87CEEB"
+    },
+    {
+      "name": "American",
+      "icon": "🍔",
+      "color": "#4169E1"
+    }
+  ],
+  "dishes": [
+    {
+      "name": "Pad Thai",
+      "description": "Stir-fried rice noodles with eggs, tofu, and tamarind sauce.",
+      "price": 10.99,
+      "imageURL": "https://example.com/padthai.jpg",
+      "categories": ["Asian", "Vegetarian"]
+    },
+    {
+      "name": "Margherita Pizza",
+      "description": "Classic pizza topped with tomato, mozzarella, and basil.",
+      "price": 12.99,
+      "imageURL": "https://example.com/margherita.jpg",
+      "categories": ["Italian", "Vegetarian"]
+    },
+    {
+      "name": "Taco Al Pastor",
+      "description": "Grilled pork tacos with pineapple and onions.",
+      "price": 8.99,
+      "imageURL": "https://example.com/tacoalpastor.jpg",
+      "categories": ["Mexican", "Non-vegetarian"]
+    },
+    {
+      "name": "Butter Chicken",
+      "description": "Creamy chicken curry with butter and spices.",
+      "price": 14.99,
+      "imageURL": "https://example.com/butterchicken.jpg",
+      "categories": ["Indian", "Non-vegetarian"]
+    },
+    {
+      "name": "Gyudon",
+      "description": "Japanese rice bowl topped with thinly sliced beef and onions.",
+      "price": 11.99,
+      "imageURL": "https://example.com/gyudon.jpg",
+      "categories": ["Japanese", "Non-vegetarian"]
+    }
+  ]
+}
