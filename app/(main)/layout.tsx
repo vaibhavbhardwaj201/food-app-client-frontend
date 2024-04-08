@@ -4,7 +4,7 @@ import React from 'react'
 
 import useMediaQuery from '@/hooks/use-media-query'
 
-import Header from './(home)/_components/header'
+import Header from './_components/header'
 import Tabs from './_components/tabs'
 
 interface MainLayoutProps {

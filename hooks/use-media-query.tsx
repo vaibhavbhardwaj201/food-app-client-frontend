@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useLayoutEffect, useState } from 'react'
 
 interface MediaQuery {
     media: string
@@ -7,7 +7,7 @@ interface MediaQuery {
 const useMediaQuery = ({media}: MediaQuery) => {
     const [matches, setMatches] = useState(false)
 
-    useEffect(() => {
+    useLayoutEffect(() => {
         const mediaQuery = window.matchMedia(media)
         if (mediaQuery.matches !== matches) {
             setMatches(mediaQuery.matches)
