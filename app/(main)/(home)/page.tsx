@@ -1,6 +1,5 @@
 import React from 'react'
 import { Metadata } from 'next';
-import Image from 'next/image';
 
 import Carousel from './_components/carousel';
 import Categories from '@/components/categories';
@@ -11,14 +10,10 @@ export const metadata: Metadata = {
 };
 
 const imgArr = [
-    { name: 'Italian', price: 11.99, imageUrl: '/bannerImg/banner1.avif' },
-    { name: 'Italian', price: 11.99, imageUrl: '/bannerImg/banner2.avif' },
-    { name: 'Italian', price: 11.99, imageUrl: '/bannerImg/banner3.avif' },
-    { name: 'Italian', price: 11.99, imageUrl: '/bannerImg/banner4.avif' },
-    // '/bannerImg/banner1.avif',
-    // '/bannerImg/banner2.avif',
-    // '/bannerImg/banner3.avif',
-    // '/bannerImg/banner4.avif',
+    { id: 4653, name: 'Italian', price: 11.99, imageUrl: '/bannerImg/banner1.avif' },
+    { id: 463453, name: 'Lol', price: 11.99, imageUrl: '/bannerImg/banner2.avif' },
+    { id: 4657353, name: 'Indian', price: 11.99, imageUrl: '/bannerImg/banner3.avif' },
+    { id: 4636553, name: 'SA', price: 11.99, imageUrl: '/bannerImg/banner4.avif' },
 ]
 
 const HomePage = () => {

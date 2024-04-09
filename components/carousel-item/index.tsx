@@ -11,6 +11,7 @@ import useMediaQuery from '@/hooks/use-media-query'
 import Card from '../card'
 
 interface Category {
+    id: number
     name: string
     price: number
     imageUrl: string
@@ -33,7 +34,7 @@ const CarouselItem = ({items}: CarouselProps) => {
       parallax={true}
     >
       {items && items.map(item => (
-        <SwiperSlide key={item.name}>
+        <SwiperSlide key={item.id}>
           <div className='w-full h-full rounded-xl overflow-hidden cursor-pointer max-w-[400px] py-1'>
             <Card item={item} />
           </div>

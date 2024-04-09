@@ -10,6 +10,7 @@ import 'swiper/css/bundle'
 import useMediaQuery from '@/hooks/use-media-query'
 
 interface Category {
+    id: number
     name: string
     price: number
     imageUrl: string
@@ -30,11 +31,9 @@ const Carousel = ({imgArr}: CarouselProps) => {
           navigation={true}
           autoplay={{ delay: 2500, disableOnInteraction: false }}
           parallax={true}
-          onSlideChange={() => {}}
-          onSwiper={(swiper) => {}}
       >
         {imgArr && imgArr.map(url => (
-            <SwiperSlide key={url.name}>
+            <SwiperSlide key={url.id}>
                 <div className='w-full h-full overflow-hidden rounded-xl cursor-pointer'>
                     <Image src={url.imageUrl} alt='banner' width={1200} height={400} className='rounded-xl hover:scale-110 transition ease-in-out delay-250' />
                 </div>
